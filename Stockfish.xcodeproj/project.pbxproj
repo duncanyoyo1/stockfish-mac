@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DAF04762271381300C7EB7E /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAF04742271381300C7EB7E /* Fabric.framework */; };
+		6DAF04772271381300C7EB7E /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAF04742271381300C7EB7E /* Fabric.framework */; };
+		6DAF04782271381300C7EB7E /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAF04752271381300C7EB7E /* Crashlytics.framework */; };
+		6DAF04792271381300C7EB7E /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAF04752271381300C7EB7E /* Crashlytics.framework */; };
 		77050672187CE43300BA4635 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77050671187CE43300BA4635 /* Cocoa.framework */; };
 		7705067C187CE43300BA4635 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7705067A187CE43300BA4635 /* InfoPlist.strings */; };
 		7705067E187CE43300BA4635 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7705067D187CE43300BA4635 /* main.m */; };
@@ -77,8 +81,6 @@
 		7795E2F71A4D1E6100736550 /* NSArray+ArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7795E2F61A4D1E6100736550 /* NSArray+ArrayUtils.m */; };
 		779925D9188273C800EAAEDD /* SFMChessGameTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 779925D8188273C800EAAEDD /* SFMChessGameTest.m */; };
 		779925DC1882914B00EAAEDD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779925DB1882914B00EAAEDD /* QuartzCore.framework */; };
-		77AE06B21FFB2D8A00AD4C72 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AE06B01FFB2D8A00AD4C72 /* Crashlytics.framework */; };
-		77AE06B31FFB2D8A00AD4C72 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AE06B11FFB2D8A00AD4C72 /* Fabric.framework */; };
 		77AE06B61FFB2EDA00AD4C72 /* SFMApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AE06B51FFB2EDA00AD4C72 /* SFMApplicationDelegate.m */; };
 		77CA8B051889C42F004402D2 /* SFMFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CA8B041889C42F004402D2 /* SFMFormatter.m */; };
 		77CA8B071889C499004402D2 /* SFMFormatterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CA8B061889C499004402D2 /* SFMFormatterTest.m */; };
@@ -98,6 +100,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6DAF04742271381300C7EB7E /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		6DAF04752271381300C7EB7E /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		7705066E187CE43300BA4635 /* Stockfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stockfish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77050671187CE43300BA4635 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		77050674187CE43300BA4635 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -223,8 +227,6 @@
 		7795E2F61A4D1E6100736550 /* NSArray+ArrayUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+ArrayUtils.m"; path = "Stockfish/NSArray+ArrayUtils.m"; sourceTree = "<group>"; };
 		779925D8188273C800EAAEDD /* SFMChessGameTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMChessGameTest.m; sourceTree = "<group>"; };
 		779925DB1882914B00EAAEDD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		77AE06B01FFB2D8A00AD4C72 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
-		77AE06B11FFB2D8A00AD4C72 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		77AE06B41FFB2EDA00AD4C72 /* SFMApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFMApplicationDelegate.h; sourceTree = "<group>"; };
 		77AE06B51FFB2EDA00AD4C72 /* SFMApplicationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFMApplicationDelegate.m; sourceTree = "<group>"; };
 		77CA8B031889C42F004402D2 /* SFMFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFMFormatter.h; path = Stockfish/SFMFormatter.h; sourceTree = "<group>"; };
@@ -243,9 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				779925DC1882914B00EAAEDD /* QuartzCore.framework in Frameworks */,
-				77AE06B21FFB2D8A00AD4C72 /* Crashlytics.framework in Frameworks */,
 				77050672187CE43300BA4635 /* Cocoa.framework in Frameworks */,
-				77AE06B31FFB2D8A00AD4C72 /* Fabric.framework in Frameworks */,
+				6DAF04782271381300C7EB7E /* Crashlytics.framework in Frameworks */,
+				6DAF04762271381300C7EB7E /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +257,8 @@
 			files = (
 				77050695187CE43400BA4635 /* Cocoa.framework in Frameworks */,
 				77050694187CE43400BA4635 /* XCTest.framework in Frameworks */,
+				6DAF04792271381300C7EB7E /* Crashlytics.framework in Frameworks */,
+				6DAF04772271381300C7EB7E /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +268,8 @@
 		77050665187CE43300BA4635 = {
 			isa = PBXGroup;
 			children = (
+				6DAF04752271381300C7EB7E /* Crashlytics.framework */,
+				6DAF04742271381300C7EB7E /* Fabric.framework */,
 				775A3B6E1A4BD00600C3CD59 /* Enums */,
 				775A3B6D1A4BCFEF00C3CD59 /* Utils */,
 				7744CCB21A4A0DA1009D349D /* Wrappers */,
@@ -278,8 +284,6 @@
 				77050698187CE43400BA4635 /* StockfishTests */,
 				77050670187CE43300BA4635 /* Frameworks */,
 				7705066F187CE43300BA4635 /* Products */,
-				77AE06B01FFB2D8A00AD4C72 /* Crashlytics.framework */,
-				77AE06B11FFB2D8A00AD4C72 /* Fabric.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -584,7 +588,7 @@
 				ORGANIZATIONNAME = "Daylen Yang";
 				TargetAttributes = {
 					7705066D187CE43300BA4635 = {
-						DevelopmentTeam = NR8F7ZFLA3;
+						DevelopmentTeam = E2VDHSH78K;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
@@ -593,7 +597,7 @@
 						};
 					};
 					77050691187CE43400BA4635 = {
-						DevelopmentTeam = NR8F7ZFLA3;
+						DevelopmentTeam = E2VDHSH78K;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 7705066D187CE43300BA4635;
 					};
@@ -604,6 +608,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -671,7 +676,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run aca44c50c3e698d886faa23fbcc5fb250ad755ce c8560edbba800e57faaa0580383ce29c9ecbb2b40f4dc6e273e1f38b11b0d4c0";
+			shellScript = "./Fabric.framework/run 200f3365a8ecd8ca0aeabf13892e7d61e6e579af 2acf21467a1cedbbd4b904ebb7deaef6d478178f9f13b75d9d9d84f0c8010349\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -915,7 +920,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NR8F7ZFLA3;
+				DEVELOPMENT_TEAM = E2VDHSH78K;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -943,7 +948,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NR8F7ZFLA3;
+				DEVELOPMENT_TEAM = E2VDHSH78K;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -967,10 +972,11 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stockfish.app/Contents/MacOS/Stockfish";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NR8F7ZFLA3;
+				DEVELOPMENT_TEAM = E2VDHSH78K;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stockfish/Stockfish-Prefix.pch";
@@ -993,10 +999,11 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stockfish.app/Contents/MacOS/Stockfish";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NR8F7ZFLA3;
+				DEVELOPMENT_TEAM = E2VDHSH78K;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stockfish/Stockfish-Prefix.pch";
@@ -1069,7 +1076,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NR8F7ZFLA3;
+				DEVELOPMENT_TEAM = E2VDHSH78K;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1094,10 +1101,11 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stockfish.app/Contents/MacOS/Stockfish";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NR8F7ZFLA3;
+				DEVELOPMENT_TEAM = E2VDHSH78K;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stockfish/Stockfish-Prefix.pch";
